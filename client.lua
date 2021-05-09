@@ -71,8 +71,7 @@ Citizen.CreateThread(function ()
 					IsClose=true;	
 					
 				else  
-				
-					print("IsClose");
+					
 					if CheckPos(playerLoc.x, playerLoc.y, playerLoc.z, loc1.x, loc1.y, loc1.z, 20) then	
 						IsClose=true;
 					end	
